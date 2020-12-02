@@ -1,8 +1,4 @@
-from flask import Flask, Response, request, jsonify
-import random
+from application import app
 
-app = Flask(__name__)
-
-@app.route('/suggestion', methods=['POST'])
-def suggestion():
-    city
+if __name__ =="__main__":
+    app.run(debug=True, host='0.0.0.0', port=5003)
