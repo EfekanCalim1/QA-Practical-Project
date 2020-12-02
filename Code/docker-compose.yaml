@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  service1:
+    build: ./service_1
+    image: ecalim/service1:latest
+    ports:
+    - target: 5000
+      published: 5000
+      protocol: tcp
+  service2:
+    build: ./service_2
+    image: ecalim/service2:latest
+    ports:
+    - target: 5001
+      published: 5001
+      protocol: tcp
+  service3:
+    build: ./service_3
+    image: ecalim/service3:latest
+    ports:
+    - target: 5002
+      published: 5002
+      protocol: tcp
+  service4:
+    build: ./service_4
+    image: calim/service4:latest
+    ports:
+    - target: 5003
+      published: 5003
+      protocol: tcp
