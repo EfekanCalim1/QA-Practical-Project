@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import requests
 from application import app
 
-@app.route('/', methods=['GET']) 
+@app.route('/', methods=['GET', 'POST']) 
 def index():
     city = requests.get("http://service_2:5001/city")
     weather = requests.get("http://service_3:5002/weather")
