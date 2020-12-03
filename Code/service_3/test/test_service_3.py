@@ -7,7 +7,7 @@ from application import app
 
 
 
-class TestBase(TestCase):
+class TestBase(TestCase): 
     def create_app(self):
         return app 
 
