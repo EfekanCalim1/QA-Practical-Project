@@ -39,9 +39,9 @@
       <center><h2>Generate a Random City</h2>
       <p>This application will generate a random city and weather condition. Depending on the condition, you will be informed if it is a good idea to visit the chosen city.</p>
       <br>
-      <h3>City: </h3>
-      <h3>Weather: </h3>
-      <h3>Suggestion: </h3>
+      <h3>City: {{ city }}</h3>
+      <h3>Weather: {{ weather }} </h3>
+      <h3>Suggestion: {{ suggestion }} </h3>
       <br>
       <a href="{{ url_for('index')}}"><button style="font-size: xx-large;font-family: Arial, Helvetica, sans-serif;">Generate</button></center></a>
       
