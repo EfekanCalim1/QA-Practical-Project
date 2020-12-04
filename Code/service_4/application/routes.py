@@ -18,3 +18,4 @@ def suggestion():
     else:
         suggestion = "No suggestion available"
     return Response(suggestion, mimetype="text/plain")
+
