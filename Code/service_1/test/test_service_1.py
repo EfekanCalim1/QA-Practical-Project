@@ -13,11 +13,3 @@ class TestIndex(TestBase):
         response = self.client.get(url_for('index'))
         self.assertEqual(response.status_code, 200)
 
-class TestResponse(TestBase):
-    def test_city(self):
-        with patch("requests.get") as g:
-            with patch("requests.post") as p:
-                g.return_value.text = "sun"
-                p.return_value.text = "It is a great time to visit"
-                response = self.client.get(url_for('index'))
-                self.assertIn(b'It is a great time to visit', response.data)
