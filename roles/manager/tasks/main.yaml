@@ -1,8 +1,8 @@
  name: clone git 
-  git:
-    repo: https://github.com/EfekanCalim1/QA-Practical-Project
-    dest: /home/QA-Practical-Project
-    update: yes
+ git:
+   repo: https://github.com/EfekanCalim1/QA-Practical-Project
+   dest: /home/QA-Practical-Project
+   update: yes
 
 - name: "make the swarm"
   docker_swarm:
