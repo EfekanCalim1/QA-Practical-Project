@@ -1,4 +1,4 @@
-# QA-Practical-Project: Suggestion Generator
+# QA-Practical-Project: Suggestion Generator Efekan Calim
 <br>
 <br>
 <h1> Efekan Calim <h1>
