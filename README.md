@@ -3,7 +3,7 @@
 <br>
 <h1> Efekan Calim <h1>
 
-<h2>Contents</h2>
+<br>
 <h3>Brief</h3>
 <br>
 <h3>Introduction</h3>
@@ -235,6 +235,7 @@ My final Jira Board is below<br>
 8. Orchestration: Docker-compose
 <br>
 <h3>Improvements</h3>
+<br>
 More practice with SSH. The root of the problem with being unable to incorporate Ansible was not due to errors within Ansible itself. I experienced trouble with SSHing as a Jenkins user into swarm nodes and was unable to find the cause of the problem. The error I was faced with was a permission denied prompt. 
 
 
